@@ -9,7 +9,7 @@ metaTitle: Reading Progress | VuePress
 
 add reading progress bar for vuepress
 
-![vuepress-plugin-reading-progress](/plugin_reading_progress.gif)
+![vuepress-plugin-reading-progress](/learn-vuepress/plugin_reading_progress.gif)
 
 ---
 

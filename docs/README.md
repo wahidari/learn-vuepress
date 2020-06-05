@@ -6,7 +6,7 @@ tagline: Hero subtitle
 actionText: Get Started →
 actionLink: /guide/
 readingShow: false
-footer: Powered by VuePress | Copyright © 2020 Wahid Ari
+footer: Powered by VuePress
 ---
 
 <div class="features">
