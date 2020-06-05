@@ -34,4 +34,6 @@ To keep things at a minimum, not all of the official plugins are shipped with Vu
 
 The architecture of the whole plugin system is as follows:
 
-![Architecture of VuePress](/learn-vuepress/architecture.png)
+<picture>
+<img :src="$withBase('/architecture.png')">
+</picture>

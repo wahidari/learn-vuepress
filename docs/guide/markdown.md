@@ -292,32 +292,8 @@ module.exports = {
 - Demo:
 
 <picture>
-  <source srcset="/line-numbers-desktop.png" media="(min-width: 719px)">
-  <img src="/line-numbers-desktop.png" class="line-numbers-desktop-snap" alt="Image">
+  <img :src="$withBase('/line-numbers-desktop.png')">
 </picture>
-
-<picture>
-  <source srcset="/line-numbers-mobile.gif" media="(max-width: 719px)">
-  <img src="/line-numbers-mobile.gif" class="line-numbers-mobile-snap" alt="Image">
-</picture>
-
-<style>
-  @media screen and (min-width:  719px) {
-    .line-numbers-mobile-snap {
-       display: none;
-    }
-  }
-  @media screen and (max-width:  719px) {
-    .line-numbers-desktop-snap {
-       display: none;
-    }
-    .line-numbers-mobile-snap {
-      max-width: none!important;
-      margin: 0 -1.5rem;
-      width: 100vw;
-    }
-  }
-</style>
 
 ## Advanced Configuration
 
