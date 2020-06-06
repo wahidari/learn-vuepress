@@ -7,10 +7,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: vuepress-deploy
-      uses: jenkey2011/vuepress-deploy@master
+    - name: Build and Deploy
+      uses: grasilife/github-pages-deploy-action@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: wahidari/learn-vuepress
-        BUILD_SCRIPT: npm run docs:build
-        BUILD_DIR: docs/.vuepress/dist/
+        BASE_BRANCH: master # The branch the action should deploy from.
+        BRANCH: gh-pages # The branch the action should deploy to.
+        FOLDER: docs/.vuepress/dist # The folder the action should deploy.
+        BUILD_SCRIPT: npm install && npm run docs:build # The build script the action should run prior to deploying.
