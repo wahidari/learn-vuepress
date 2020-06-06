@@ -45,6 +45,6 @@ VuePress requires Node.js >= 8.6.
 :::
 
 <div class="footer">
-  Copyright © <a href="https://github.com/wahidari">Wahid Ari</a> 2020. <br>
+  Copyright © <a href="https://github.com/wahidari">Wahid Ari</a> 2020 <br>
   Powered by <a href="https://vuepress.vuejs.org/">VuePress</a>
 </div>
