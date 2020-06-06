@@ -9,6 +9,7 @@ module.exports = {
     themeConfig: {
         // logo: 'logo.png',
         // logoLink: 'https://yourdomain.com',
+        lastUpdated: 'Last Updated',
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Guide', link: '/guide/' },
@@ -52,7 +53,6 @@ module.exports = {
             '/guide/': getGuideSidebar('Guide', 'Advanced'),
             '/plugin/': getPluginSidebar('Plugin', 'Introduction', 'Official Plugins'),
         },
-        lastUpdated: 'Last Updated',
         // Assumes GitHub. Can also be a full GitLab url.
         repo: 'wahidari/learn-vuepress',
         // Customising the header label
